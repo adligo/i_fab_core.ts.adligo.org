@@ -11,6 +11,10 @@
   "lockfileVersion": 3,
   "main": "./dist/i_fab_core",
   "name": "@ts.adligo.org/i_fab_core",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adligo/i_fab_core.ts.adligo.org.git"
+  },
   "scripts": {
     "tests": "echo See fab_core_tests.ts.adligo.org",
     "build": "tsc && slink -p",
