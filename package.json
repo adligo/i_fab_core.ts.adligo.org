@@ -20,7 +20,7 @@
     "build": "tsc && slink -p",
     "tsc": "tsc"
   },
-  "sharedNodeModuleProjectSLinkEnvVar": ["FAB_CORE_NODE_MODULE_SLINK"],
+  "sharedNodeModuleProjectSLinkEnvVar": ["FAB_NODE_MODULE_SLINK"],
   "sharedNodeModuleProjectSLinks": ["fab_group_deps.ts.adligo.org"],
   "type": "module",
   "types": "src/i_fab_core.mts",
