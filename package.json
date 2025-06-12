@@ -1,0 +1,24 @@
+{
+  "author": "Scott Morgan",
+  "bin": {
+    "i_fab_core.mjs": "./dist/i_fab_core.mjs",
+    "i_fab_core.mts": "./src/i_fab_core.mts"
+  },
+  "description": "This project contains i_fab_core Typescript interfaces.",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "lockfileVersion": 3,
+  "main": "./dist/i_fab_core",
+  "name": "@ts.adligo.org/i_fab_core",
+  "scripts": {
+    "tests": "echo See fab_core_tests.ts.adligo.org",
+    "build": "tsc && slink -p",
+    "tsc": "tsc"
+  },
+  "sharedNodeModuleProjectSLinkEnvVar": ["FAB_CORE_NODE_MODULE_SLINK"],
+  "sharedNodeModuleProjectSLinks": ["fab_group_deps.ts.adligo.org"],
+  "type": "module",
+  "types": "src/i_fab_core.mts",
+  "version": "0.0.1"
+}
